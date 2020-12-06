@@ -13,3 +13,68 @@
  *= require_tree .
  *= require_self
  */
+
+/*共通*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin: 30px;
+}
+p{
+	font-size: 12px;
+	padding
+}
+a{
+	color: #444444;
+}
+label{
+	display: block;
+	padding: 0;
+}
+#notice{
+	color: green;
+	font-size: 15px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+/*共通*/
+
+/*topページ*/
+p span{
+	font-weight: bold;
+	padding: 0;
+}
+p a{
+	padding:0;
+}
+/*topページ*/
+
+/*index*/
+table{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+td{
+	padding: 5px;
+}
+thead td{
+	font-weight: bold;
+	text-align: center;
+}
+/*index*/
+
+/*show*/
+.show-box{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+}
+.show-box:nth-of-type(1){
+	margin-bottom: 0;
+}
+.headline{
+	font-weight: bold;
+}

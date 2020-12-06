@@ -1,0 +1,12 @@
+<div class="show-box">
+	<span class="headline">Title:</span>
+	<%= @book.title %>
+</div>
+<div class="show-box">
+	<span class="headline">Body:</span>
+	<%= @book.body %>
+</div>
+
+<%= link_to "Edit", edit_book_path %>
+|
+<%= link_to "Back", books_path %>
